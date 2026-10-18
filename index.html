@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SiteIQ Pro — Architectural Development Intelligence</title>
-<meta name="description" content="SiteIQ Pro (free public beta) finds vacant infill parcels in any U.S. city, screens them for preliminary development feasibility, tests what fits under zoning, and models development economics from public data.">
+<title>SiteVerge — Architectural Development Intelligence</title>
+<meta name="description" content="SiteVerge (free public beta) finds vacant infill parcels in any U.S. city, screens them for preliminary development feasibility, tests what fits under zoning, and models development economics from public data.">
 <meta name="theme-color" content="#08111e">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
-<meta property="og:title" content="SiteIQ Pro — preliminary development feasibility for any U.S. lot">
+<meta property="og:title" content="SiteVerge — preliminary development feasibility for any U.S. lot">
 <meta property="og:description" content="Free public beta. Find vacant infill sites, test what fits under zoning, and model development economics using public parcel, zoning, flood, soil and Census data.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SiteIQ Pro — free public beta">
+<meta name="twitter:title" content="SiteVerge — free public beta">
 <meta name="twitter:description" content="Find development opportunities. Test what fits. Understand the economics.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"SiteIQ Pro","applicationCategory":"BusinessApplication","operatingSystem":"Any (web browser)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Preliminary development feasibility and site selection using public data. Free public beta."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"SiteVerge","applicationCategory":"BusinessApplication","operatingSystem":"Any (web browser)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Preliminary development feasibility and site selection using public data. Free public beta."}</script>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
@@ -798,7 +798,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
   <div class="hx">
     <section class="hx-main">
       <p class="h-eye">Architectural development intelligence · <span class="beta">Free public beta</span></p>
-      <h1 class="h-title">SITE<em>IQ</em> PRO</h1>
+      <h1 class="h-title">SITE<em>VERGE</em></h1>
       <p class="hx-lead">Find development opportunities. Test what fits. <span>Understand the economics.</span></p>
       <p class="h-sub">Discover potential infill sites, evaluate preliminary buildability, compare development scenarios, and export architectural site analysis — using public parcel, zoning, flood, soil and Census data. Results are a preliminary screen, not a zoning approval.</p>
       <div class="hx-search" role="search">
@@ -853,7 +853,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
     <li><b>Monthly pro forma</b><span>Construction loan, lease-up, refinance, sale + 1,000 scenarios</span></li>
     <li><b>Exports</b><span>PDF, Excel, DXF and 3D model for Rhino</span></li>
   </ul>
-  <div class="h-disc" role="note"><b>Disclaimer:</b> SiteIQ Pro is a screening tool for education and early planning. It is not legal, financial, engineering, appraisal or investment advice. Results come from public data that can be incomplete or out of date. Verify zoning, title, utilities, soils, flood status and costs with the local authority and licensed professionals.
+  <div class="h-disc" role="note"><b>Disclaimer:</b> SiteVerge is a screening tool for education and early planning. It is not legal, financial, engineering, appraisal or investment advice. Results come from public data that can be incomplete or out of date. Verify zoning, title, utilities, soils, flood status and costs with the local authority and licensed professionals.
     <div class="h-links"><button onclick="showAbout('method')">How it works</button> · <button onclick="showAbout('cited')">Sources &amp; Works Cited</button> · <button onclick="showAbout('terms')">Full disclaimer</button></div>
     <div class="hx-src">Data: U.S. Census Bureau · FEMA · EPA · USDA · USGS · NASA · BEA · state &amp; county GIS · OpenStreetMap</div>
   </div>
@@ -883,7 +883,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
 
 <!-- HEADER -->
 <header>
-  <div class="logo" onclick="showHero()" role="link" tabindex="0" aria-label="SiteIQ Pro home">SITE<em>IQ</em><span class="logo-badge">PRO</span><span class="beta-badge">BETA</span></div>
+  <div class="logo" onclick="showHero()" role="link" tabindex="0" aria-label="SiteVerge home">SITE<em>VERGE</em><span class="beta-badge">BETA</span></div>
   <div class="hcity" id="hcity">Ready &mdash; enter a city to begin</div>
   <button class="hbtn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="hactions" onclick="toggleMenu()">&#9776; Menu</button>
   <div class="hactions" id="hactions" onclick="if(event.target.closest('button')&&window.innerWidth<=760)toggleMenu(false)">
@@ -1006,7 +1006,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
   <div class="ld-coords" id="ldCoords" aria-hidden="true"></div>
   <div class="ld-legend" aria-hidden="true"><span><i class="lg-b"></i>Built</span><span><i class="lg-x"></i>Ruled out</span><span><i class="lg-c"></i>Passed screening</span><svg viewBox="0 0 120 14" width="120" height="14"><path d="M1 9h118M1 5v8M60 7v6M119 5v8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="ld-scale">0 &nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp; 200 ft</span></div>
   <div class="loader-card">
-    <div class="loader-logo">SITE<em>IQ</em> PRO</div>
+    <div class="loader-logo">SITE<em>VERGE</em></div>
     <div class="loader-city" id="loaderCity">Initializing...</div>
     <ol class="ld-steps" id="ldSteps">
       <li>Locate the city</li><li>Rank neighborhoods (walkability, transit, retail)</li><li>Pull county parcels</li><li>Screen buildings, street frontage, roads &amp; ponds</li><li>Score sites &amp; run the pro forma</li>
@@ -1022,7 +1022,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
 <!-- ABOUT / METHODOLOGY / WORKS CITED / DISCLAIMER -->
 <div class="about gone" id="about" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" aria-hidden="true" onclick="if(event.target===this)hideAbout()">
   <div class="about-box">
-    <div class="about-hdr"><b id="aboutTitle">ABOUT SITEIQ PRO</b><button class="about-close dp-close" onclick="hideAbout()" aria-label="Close">&#10005;</button></div>
+    <div class="about-hdr"><b id="aboutTitle">ABOUT SITEVERGE</b><button class="about-close dp-close" onclick="hideAbout()" aria-label="Close">&#10005;</button></div>
     <div class="about-tabs" role="tablist">
       <button data-at="help" role="tab" onclick="aboutTab('help')">Quick start</button>
       <button data-at="method" role="tab" onclick="aboutTab('method')">How it works</button>
@@ -1033,28 +1033,28 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
     </div>
     <div class="about-body">
       <div class="about-pane" id="ab-help">
-        <h4>What SiteIQ does, and who it is for</h4>
-        <p>SiteIQ is a free <b>preliminary</b> site-selection and feasibility screen for architects, developers and city planners. It finds candidate parcels from public data, checks what could physically fit, sketches a conceptual building, prices it with a transparent pro forma and exports drawings and reports. It is a first look before due diligence — not a replacement for it.</p>
+        <h4>What SiteVerge does, and who it is for</h4>
+        <p>SiteVerge is a free <b>preliminary</b> site-selection and feasibility screen for architects, developers and city planners. It finds candidate parcels from public data, checks what could physically fit, sketches a conceptual building, prices it with a transparent pro forma and exports drawings and reports. It is a first look before due diligence — not a replacement for it.</p>
         <h4>Two ways to start</h4>
-        <ul><li><b>Find sites in a city</b> — SiteIQ ranks the city’s strongest neighborhoods, pulls vacant parcels from public county or state GIS, screens out lots with buildings, roads, ponds or no street access, and lists the best that pass.</li><li><b>Analyze an address</b> — the same checks and model for one parcel you already have in mind.</li></ul>
+        <ul><li><b>Find sites in a city</b> — SiteVerge ranks the city’s strongest neighborhoods, pulls vacant parcels from public county or state GIS, screens out lots with buildings, roads, ponds or no street access, and lists the best that pass.</li><li><b>Analyze an address</b> — the same checks and model for one parcel you already have in mind.</li></ul>
         <h4>Finding more sites</h4>
         <ul><li><b>+ Find more sites</b> searches the next neighborhoods (then deeper into ones that still have unreviewed lots) with the same filters and ranking, and shows only parcels you haven’t been shown. Each batch is ranked on its own, best first.</li>
-          <li>SiteIQ remembers which parcels you’ve reviewed in each city (by county parcel ID, in this browser only), so searching the same city again also skips them. <b>View all</b> brings back every site from this session; <b>Reset search history</b> starts over and never touches saved analyses.</li>
-          <li>When a city’s qualifying parcels run out, SiteIQ says so instead of repeating old sites. Address lookup always returns the exact parcel, seen or not.</li></ul>
+          <li>SiteVerge remembers which parcels you’ve reviewed in each city (by county parcel ID, in this browser only), so searching the same city again also skips them. <b>View all</b> brings back every site from this session; <b>Reset search history</b> starts over and never touches saved analyses.</li>
+          <li>When a city’s qualifying parcels run out, SiteVerge says so instead of repeating old sites. Address lookup always returns the exact parcel, seen or not.</li></ul>
         <h4>Reading a site</h4>
         <ul><li><b>Snapshot</b> — pick a site on the map or in the list for a quick summary: screening result, buildable envelope, potential building, estimated cost, financial status and the top three things to check.</li>
           <li><b>Open full analysis</b> opens a wide workspace with five sections: <b>Overview</b> (is it worth pursuing, risks, data confidence, next steps), <b>Site &amp; Massing</b> (site plan, 3D massing, floors and zoning), <b>Financial Analysis</b> (summary, budget, revenue &amp; operations, financing, returns, and Advanced: what-if, Monte Carlo, sensitivity), <b>Market &amp; Context</b> (walkability, transit, income, trends, flood, soil, utilities) and <b>Reports &amp; Exports</b>. <b>← Map &amp; results</b> (or Esc) returns to the map with everything kept.</li>
           <li><b>Three separate conclusions.</b> Every site shows <b>Physical</b> feasibility (lot geometry, frontage, setbacks, slope, flood, soils), <b>Regulatory</b> feasibility (zoning — always inferred from the district type, never verified against the ordinance; where no zoning layer exists: “Zoning not verified — conceptual building envelope only.”) and <b>Financial</b> feasibility (the modeled economics). Passing one never implies the others.</li>
-          <li>Status labels, used the same way on screen and in every export: <b>Source record</b> (retrieved from a named public dataset during this analysis — not field-verified), <b>Modeled estimate</b> (calculated from assumptions or reference data), <b>Requires verification</b> (confirm with an official source or a qualified professional), <b>Unavailable</b> (SiteIQ could not obtain it reliably).</li>
+          <li>Status labels, used the same way on screen and in every export: <b>Source record</b> (retrieved from a named public dataset during this analysis — not field-verified), <b>Modeled estimate</b> (calculated from assumptions or reference data), <b>Requires verification</b> (confirm with an official source or a qualified professional), <b>Unavailable</b> (SiteVerge could not obtain it reliably).</li>
           <li><b>Data coverage</b> is set per site from the sources that actually answered: <b>Enhanced</b> (public parcel geometry and a local zoning code), <b>Standard</b> (public parcel geometry, no zoning layer) or <b>Limited</b> (no legal parcel boundary — lot, envelope and building are approximate). The <b>?</b> buttons explain finance terms; <b>Assumptions</b> (gear) changes filters, massing rules, scoring weights and every finance assumption.</li></ul>
         <h4>Keyboard</h4>
         <ul><li><b>L</b> site lookup · <b>A</b> assumptions · <b>← →</b> previous / next site · <b>S</b> satellite · <b>E</b> envelope · <b>Esc</b> close panels.</li></ul>
-        <h4>What SiteIQ is — and isn’t</h4>
+        <h4>What SiteVerge is — and isn’t</h4>
         <p>It is a fast, transparent first screen using free public data. It is not a zoning determination, survey, title search, environmental assessment, appraisal or lender quote. Before acting on any site, confirm zoning with the local authority and engage licensed professionals.</p>
-        <p class="about-small">SiteIQ Pro · free public beta · build 2026-10-17 · no account, no tracking, no paid features.</p>
+        <p class="about-small">SiteVerge · free public beta · build 2026-10-17 · no account, no tracking, no paid features.</p>
       </div>
       <div class="about-pane" id="ab-method">
-        <p>SiteIQ Pro treats site selection as a multi-criteria decision problem. It finds candidate lots, checks that each can be built on, scores the lots on six categories, and runs a financial model on each one.</p>
+        <p>SiteVerge treats site selection as a multi-criteria decision problem. It finds candidate lots, checks that each can be built on, scores the lots on six categories, and runs a financial model on each one.</p>
         <h4>1. Finding real, buildable lots</h4>
         <p>Parcels come from public state or county GIS layers. If a state has no statewide layer, the tool looks for a county layer in the ArcGIS Online public catalog, and falls back to OpenStreetMap only if nothing else is available. A lot is kept only if it meets all of these:</p>
         <ul><li>It has no building footprint on it (FEMA USA Structures, or CAGIS in Hamilton County).</li><li>It touches a public street (Census TIGER roads).</li><li>It is large enough for the chosen building after zoning setbacks.</li><li>It is not a park, cemetery, right-of-way or utility parcel.</li></ul>
@@ -1071,13 +1071,13 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
           <li><b>Best-fit building:</b> every height from 2 floors up to the zoning (or your) maximum is tested, and the one with the largest development spread is shown. 2–3 floors are wood walk-ups (no elevator), 4–5 floors add an elevator, taller buildings use podium or concrete construction.</li>
           <li><b>What to build:</b> each lot is also tested as apartments, a 2–4 unit building and rental townhomes (garages, at most 24 units per acre). Options zoning appears to prohibit are flagged as hypothetical.</li>
           <li><b>Timeline:</b> land closes in month 0; construction takes 9–36 months depending on height and size; lease-up runs at <span data-fin="absorption"></span> new leases a month (at least 6 months with retail); the sale happens <span data-fin="hold"></span> after completion.</li>
-          <li><b>Land:</b> three separate figures. The <b>official county land value</b> (the tax roll, shown as published). The <b>model-estimated acquisition price</b> = county land value × <span data-fin="landPremium"></span> (Advanced), or, where no county value exists, a location-based estimate from walkability, retail activity, county income and state price level (low confidence). <b>Your purchase price</b>, entered at the top of Financial Analysis, always takes precedence. SiteIQ never uses listings, sales or comparables, and never presents an estimate as a market price.</li>
+          <li><b>Land:</b> three separate figures. The <b>official county land value</b> (the tax roll, shown as published). The <b>model-estimated acquisition price</b> = county land value × <span data-fin="landPremium"></span> (Advanced), or, where no county value exists, a location-based estimate from walkability, retail activity, county income and state price level (low confidence). <b>Your purchase price</b>, entered at the top of Financial Analysis, always takes precedence. SiteVerge never uses listings, sales or comparables, and never presents an estimate as a market price.</li>
           <li><b>Budget:</b> the building hard cost — your $/sf × a regional price adjustment (BEA Regional Price Parities<sup><span data-fin="regionalWeight"></span></sup>; RPP is a <b>general consumer price index, not a construction-cost index</b>, so it is only a rough proxy you can turn down or off) × a height factor, or your own $/gross sf entered at the top of Financial Analysis — covers the structure, envelope, interiors and MEP only. Separate lines: parking, elevators, sitework (<span data-fin="siteworkSf"></span>/sf of lot), utility connections and tap fees (<span data-fin="utilityUnit"></span> per unit), paving removal on surface lots (<span data-fin="demoSf"></span>/sf; demolishing an existing building is not estimated), a <span data-fin="contingency"></span> contingency, architecture &amp; engineering <span data-fin="aePct"></span>, permits &amp; impact fees <span data-fin="permitPct"></span>, other soft costs <span data-fin="otherSoft"></span>, construction interest, a <span data-fin="loanFee"></span> loan fee and property tax on the land during construction.</li>
           <li><b>Construction loan:</b> up to <span data-fin="ltc"></span> of total cost at your construction rate; equity goes in first; interest is added to the loan until the building is leased.</li>
           <li><b>Operations:</b> rents start from Census median contract rent (tract and county) raised by a new-building premium — an estimate, not a current asking rent. Vacancy <span data-fin="vacancy"></span> residential and <span data-fin="retailVacancy"></span> retail. Operating costs <span data-fin="opexUnit"></span>/unit/yr for elevator buildings and <span data-fin="opexWalkup"></span> for small walk-ups (regionally scaled), management <span data-fin="mgmtFee"></span> (<span data-fin="mgmtFeeSmall"></span> under 20 units), reserves <span data-fin="reservesUnit"></span>/unit, other income <span data-fin="otherIncome"></span>/unit/month. Property tax uses an approximate state rate for rental property. Retail is triple-net with <span data-fin="retailNonRecov"></span> non-recoverable costs, <span data-fin="retailTI"></span>/sf tenant buildout and <span data-fin="retailLC"></span> leasing commissions. Operating costs are split into insurance (22%), maintenance &amp; repairs (33%), utilities (27%) and administrative (18%). Each year is built from these line items: rents and other income grow <span data-fin="growth"></span> a year; operating costs, reserves and property tax grow <span data-fin="expGrowth"></span>, independently; management and retail non-recoverables follow collected income.</li>
           <li><b>Permanent loan:</b> at stabilization the construction loan is refinanced at your permanent rate (<span data-fin="amortYrs"></span> amortization after <span data-fin="permIO"></span> of interest-only payments, <span data-fin="permFee"></span> fee). Payments follow a month-by-month schedule: the final payment is only what is owed, payments stop once the loan is repaid, and the sale pays off the actual remaining balance (never below zero). The loan is the smallest of <span data-fin="ltv"></span> of value, the amount the income covers <span data-fin="dscrMin"></span>, and a <span data-fin="debtYieldMin"></span> debt yield. A shortfall versus the construction loan is an additional equity call. The Finance tab separates initial equity, additional equity (overruns above the loan limit, lease-up losses, refinance shortfall) and peak equity.</li>
           <li><b>Value and sale:</b> stabilized value uses a cap rate <span data-fin="capSpread"></span> below your exit cap; the sale uses the exit cap on the next year's NOI, less <span data-fin="sellCost"></span> selling costs.</li>
-          <li><b>Returns:</b> levered IRR, MIRR and NPV on the monthly equity cash flows; equity profit, equity multiple, year-1 cash-on-cash (on peak equity) and break-even rent (first-year NOI = debt service); yield on cost, DSCR and debt yield. The IRR is solved so that NPV at that rate is zero (checked every time); when the cash flows have no IRR or more than one, SiteIQ says so and shows MIRR instead of a number. <b>Development spread</b> (value − cost) is a paper margin, not realized profit. The site score measures the parcel and location only; the economics are reported separately.</li>
+          <li><b>Returns:</b> levered IRR, MIRR and NPV on the monthly equity cash flows; equity profit, equity multiple, year-1 cash-on-cash (on peak equity) and break-even rent (first-year NOI = debt service); yield on cost, DSCR and debt yield. The IRR is solved so that NPV at that rate is zero (checked every time); when the cash flows have no IRR or more than one, SiteVerge says so and shows MIRR instead of a number. <b>Development spread</b> (value − cost) is a paper margin, not realized profit. The site score measures the parcel and location only; the economics are reported separately.</li>
         </ul>
         <p>A 1,000-run Monte Carlo is centred on your current assumptions and varies: hard cost ×exp(N(3%, 8%)) (overruns more likely than savings); residential rent ±7% σ and exit cap ±50 bp σ (correlated −0.4); retail rent ±9% σ; vacancy ±2 points σ; rent growth ±1 point σ; expense growth ±0.75 point σ; land ×exp(N(0, 10%)); interest rates ±75 bp σ; a 35% chance of a 1–6 month delay; lease-up pace ×exp(N(0, 25%)). Its percentages are model outputs under those assumptions, not real-world odds. A sensitivity chart shows which assumption moves the IRR most. All outputs are estimates for early screening only.</p>
         <h4>5. Fairness</h4>
@@ -1086,7 +1086,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
         <ul><li>Lot lines come from GIS, not a survey.</li><li>Vacancy is judged from building footprints, which can be a few years old.</li><li>The zoning rules are typical values for each zoning family, not the local code text.</li><li>Utility capacity, title, easements, environmental contamination and entitlement risk are not modeled.</li></ul>
       </div>
       <div class="about-pane" id="ab-sources">
-        <p>All data is fetched live from public, keyless services when you run a search. Nothing is sent to a SiteIQ server; the app has none. Recent responses are cached in your browser only.</p>
+        <p>All data is fetched live from public, keyless services when you run a search. Nothing is sent to a SiteVerge server; the app has none. Recent responses are cached in your browser only.</p>
         <table class="about-tbl"><tr><th>Used for</th><th>Source</th></tr>
           <tr><td>Parcels &amp; land values</td><td>State and county GIS parcel layers (e.g. Hamilton County CAGIS / Auditor, Indiana GIO, Colorado OIT); ArcGIS Online public catalog</td></tr>
           <tr><td>Building footprints</td><td>FEMA / ORNL USA Structures</td></tr>
@@ -1109,7 +1109,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
         <p class="about-small">OpenStreetMap data © OpenStreetMap contributors, available under the Open Database License. Esri basemaps are used under Esri's terms of use with attribution shown on the map. Government data is public domain or openly licensed by each publisher. Parcel data remains the property of the publishing state or county and is shown for reference only.</p>
       </div>
       <div class="about-pane" id="ab-cited">
-        <p class="about-small">MLA 9th edition. Online sources accessed 14 Oct. 2026.</p>
+        <p class="about-small">MLA 9th edition. Online sources accessed 14 Oct. 2026. SiteVerge was previously named SiteIQ; the two course papers below use the earlier name.</p>
         <ol class="cited">
           <li>Agafonkin, Vladimir, et al. <i>Leaflet</i>. Version 1.9.4, 2023, leafletjs.com.</li>
           <li><i>Claude</i>. Anthropic, 2026, claude.ai. Used to help design and write the application code.</li>
@@ -1144,17 +1144,17 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
       </div>
       <div class="about-pane" id="ab-limits">
         <h4>Confirm before any real decision</h4>
-        <ul><li><b>Zoning:</b> permitted uses, height, FAR, setbacks, parking, overlays, transitions and variances — with the local zoning office. SiteIQ infers zoning from the district type only.</li>
+        <ul><li><b>Zoning:</b> permitted uses, height, FAR, setbacks, parking, overlays, transitions and variances — with the local zoning office. SiteVerge infers zoning from the district type only.</li>
           <li><b>Property:</b> ownership, availability, title, easements and the exact boundary — with the county auditor/recorder and an ALTA survey. Lot lines come from public GIS, not a survey.</li>
           <li><b>Site conditions:</b> geotechnical (soil maps are not borings), environmental history (Phase I ESA), floodplain elevation, utilities capacity and tap fees.</li>
           <li><b>Costs and income:</b> contractor pricing, market rents and comparables, lender terms and appraised value. Construction cost is a preliminary $/gross sf assumption; rents start from Census medians; land starts from the county value.</li>
           <li><b>Existing conditions:</b> building footprints can be several years old — check Street View or visit the site.</li></ul>
         <h4>Geographic coverage</h4>
-        <p>Public parcel and zoning data differ by state and county. Hamilton County, Ohio (Cincinnati) has county parcels, zoning, overlays and building footprints. Elsewhere SiteIQ searches state and county layers in the public ArcGIS catalog; some counties have parcels but no zoning layer, and some have neither. Results never claim the same capability everywhere: every site carries an Enhanced, Standard or Limited coverage label and says what could not be checked.</p>
+        <p>Public parcel and zoning data differ by state and county. Hamilton County, Ohio (Cincinnati) has county parcels, zoning, overlays and building footprints. Elsewhere SiteVerge searches state and county layers in the public ArcGIS catalog; some counties have parcels but no zoning layer, and some have neither. Results never claim the same capability everywhere: every site carries an Enhanced, Standard or Limited coverage label and says what could not be checked.</p>
         <h4>Free public services</h4>
-        <p>SiteIQ relies on free public APIs (FEMA, Census, EPA, USDA, USGS, OpenStreetMap Nominatim and Overpass, Open-Meteo, NASA POWER, county ArcGIS servers). Requests are rate-limited per service, de-duplicated, cached in your browser, time out after 8–40 seconds and are retried at most once. When a service is down, the affected item is labeled <b>Unavailable</b> — never filled with a made-up value. Nominatim allows about one request per second and is not meant for heavy traffic; a high-traffic public deployment should use its own geocoder or a hosted plan (not included, to keep SiteIQ free).</p>
+        <p>SiteVerge relies on free public APIs (FEMA, Census, EPA, USDA, USGS, OpenStreetMap Nominatim and Overpass, Open-Meteo, NASA POWER, county ArcGIS servers). Requests are rate-limited per service, de-duplicated, cached in your browser, time out after 8–40 seconds and are retried at most once. When a service is down, the affected item is labeled <b>Unavailable</b> — never filled with a made-up value. Nominatim allows about one request per second and is not meant for heavy traffic; a high-traffic public deployment should use its own geocoder or a hosted plan (not included, to keep SiteVerge free).</p>
         <h4>Privacy</h4>
-        <ul><li><b>No account, no server, no analytics, no cookies, no advertising.</b> SiteIQ is a single web page; nothing you do is sent to its author.</li>
+        <ul><li><b>No account, no server, no analytics, no cookies, no advertising.</b> SiteVerge is a single web page; nothing you do is sent to its author.</li>
           <li><b>What leaves your browser:</b> the city or address you search and the coordinates of candidate lots go directly to the public services above to fetch data. Their own privacy policies apply.</li>
           <li><b>What stays in your browser:</b> saved analyses, recent searches, reviewed-parcel history per city (parcel IDs only), your theme and assumptions (local storage), and cached public-data responses for up to 30 days (IndexedDB). Clear them with <b>Clear cached data</b>, <b>Reset search history</b>, deleting saved analyses, or your browser’s site-data settings.</li>
           <li>“Report a problem” only copies a text report to your clipboard; it is sent nowhere unless you paste it yourself.</li></ul>
@@ -1162,7 +1162,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
       </div>
       <div class="about-pane" id="ab-terms">
         <h4>Disclaimer</h4>
-        <p>SiteIQ Pro is an academic screening tool for education and early-stage planning. It is <b>not</b> legal, financial, engineering, surveying, appraisal or investment advice, and it does not replace a zoning determination, title search, ALTA survey, geotechnical report, environmental site assessment or professional appraisal.</p>
+        <p>SiteVerge is an academic screening tool for education and early-stage planning. It is <b>not</b> legal, financial, engineering, surveying, appraisal or investment advice, and it does not replace a zoning determination, title search, ALTA survey, geotechnical report, environmental site assessment or professional appraisal.</p>
         <p>All results come from third-party public data that may be incomplete, out of date or wrong. Lot boundaries, vacancy, zoning, land values, rents and construction costs are estimates. NPV, IRR and Monte Carlo figures are model outputs based on the assumptions shown. They are not forecasts, valuations or offers. A lot shown as “buildable” may not be for sale, may have restrictions not shown here, and may not be approved for development.</p>
         <p>Verify every result with the local planning or zoning office, the county auditor or assessor, utility providers and licensed professionals before acting on it.</p>
         <p>The tool is provided “as is,” without warranty of any kind, express or implied. The authors and data providers accept no liability for any loss or decision arising from its use. Use of each data source is subject to that publisher's own terms.</p>
@@ -1175,7 +1175,7 @@ svg.chart{width:100%;height:auto;display:block;overflow:visible}
 <script>
 'use strict';
 // =====================================================================
-// SiteIQ Pro v9 — CORE (pure functions: no DOM, no network)
+// SiteVerge v9 — CORE (pure functions: no DOM, no network)
 // =====================================================================
 var M_PER_DEG = 111320;
 
@@ -2157,7 +2157,7 @@ ObjWriter.prototype.prism = function (name, xy, z0, z1) {
   this.parts.push({ name: name, f: f }); return this;
 };
 ObjWriter.prototype.toString = function () {
-  var s = '# SiteIQ Pro massing — meters, Z up, origin at site centroid\n' + (this.note ? '# ' + String(this.note).replace(/\n/g, ' ') + '\n' : '');
+  var s = '# SiteVerge massing — meters, Z up, origin at site centroid\n' + (this.note ? '# ' + String(this.note).replace(/\n/g, ' ') + '\n' : '');
   s += this.v.map(function (p) { return 'v ' + p[0].toFixed(3) + ' ' + p[1].toFixed(3) + ' ' + p[2].toFixed(3); }).join('\n') + '\n';
   this.parts.forEach(function (p) { s += 'o ' + p.name.replace(/\s+/g, '_') + '\n' + p.f.map(function (f) { return 'f ' + f.join(' '); }).join('\n') + '\n'; });
   return s;
@@ -2219,7 +2219,7 @@ function lineLengthInside(geom, paths, insetM) {
 }
 
 // =====================================================================
-// SiteIQ Pro — DATA + UI
+// SiteVerge — DATA + UI
 // Free, keyless sources only. Every value is tagged LIVE or EST.
 // =====================================================================
 var CG = 'https://cagisonline.hamilton-co.org/arcgis/rest/services/';
@@ -4353,7 +4353,7 @@ function removeSaved(id) { try { localStorage.setItem(SAVE_KEY, JSON.stringify(l
 // Spreadsheet formula injection: text from public data (owner names, addresses, zoning codes) that starts with
 // = + - @ or a control character is prefixed with an apostrophe so Excel shows it as text instead of running it.
 function cellSafe(v) { return typeof v === 'string' && /^[=+\-@\t\r]/.test(v) ? "'" + v : v; }
-function fileBase(s) { return (s.primary || 'site').replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') + '_SiteIQ'; }
+function fileBase(s) { return (s.primary || 'site').replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') + '_SiteVerge'; }
 function download(blob, name) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1500); }
 function lotGeomOf(s) { if (s.geometry) return s.geometry; var hw = Math.sqrt(s.lotSize / 10.7639) / 2, g = [[-hw, -hw], [hw, -hw], [hw, hw], [-hw, hw]].map(function (p) { return toLL(p[0], p[1], s.lat, s.lon); }); g.push(g[0]); return g; }
 function openRingPts(g) { var o = closeRing(g); o.pop(); return o; }
@@ -4403,7 +4403,7 @@ function doGeoJSON(id) {
     feats.push({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [ring(BG, z0)] }, properties: { type: 'building_footprint', area_sqft: Math.round(s.fin.footprint), height_m: +H.toFixed(1) } });
     feats.push({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [ring(BG, z0 + H)] }, properties: { type: 'massing_roof', height_m: +H.toFixed(1) } });
   }
-  download(new Blob([JSON.stringify({ type: 'FeatureCollection', metadata: { generator: 'SiteIQ Pro', disclaimer: DISCLAIMER, sources: 'FEMA NFHL; FEMA USA Structures; EPA Smart Location Database; U.S. Census Bureau ACS, TIGERweb and Geocoder; USDA NRCS Soil Data Access; NASA POWER; Open-Meteo; OpenStreetMap contributors; state and county parcel publishers', date: new Date().toISOString(), crs: 'EPSG:4326, Z = meters above sea level' }, features: feats }, null, 2)], { type: 'application/geo+json' }), fileBase(s) + '.geojson');
+  download(new Blob([JSON.stringify({ type: 'FeatureCollection', metadata: { generator: 'SiteVerge', disclaimer: DISCLAIMER, sources: 'FEMA NFHL; FEMA USA Structures; EPA Smart Location Database; U.S. Census Bureau ACS, TIGERweb and Geocoder; USDA NRCS Soil Data Access; NASA POWER; Open-Meteo; OpenStreetMap contributors; state and county parcel publishers', date: new Date().toISOString(), crs: 'EPSG:4326, Z = meters above sea level' }, features: feats }, null, 2)], { type: 'application/geo+json' }), fileBase(s) + '.geojson');
   toast('GeoJSON exported (import to Rhino via Heron/Urbano)');
 }
 function doDXF(id) {
@@ -4411,7 +4411,7 @@ function doDXF(id) {
   toast(ham ? 'Building DXF — fetching county LiDAR contours (up to ~30 s)...' : 'Building DXF — fetching terrain...', 12000);
   function XY(p) { return toXY(p[0], p[1], s.lat, s.lon); }
   var d = new DxfWriter();
-  d.comment('SiteIQ Pro conceptual site export - NOT FOR CONSTRUCTION, NOT A SURVEY').comment('Units: meters. +X = east, +Y = true north, +Z = up. Origin (0,0,0) = site centroid at ' + s.lat.toFixed(6) + ', ' + s.lon.toFixed(6) + ' (WGS84), local tangent plane; Z relative to the lot elevation.')
+  d.comment('SiteVerge conceptual site export - NOT FOR CONSTRUCTION, NOT A SURVEY').comment('Units: meters. +X = east, +Y = true north, +Z = up. Origin (0,0,0) = site centroid at ' + s.lat.toFixed(6) + ', ' + s.lon.toFixed(6) + ' (WGS84), local tangent plane; Z relative to the lot elevation.')
     .comment('Lot line: ' + (s.source === 'cagis' ? 'Hamilton County CAGIS parcel' : s.source === 'county' ? 'public parcel GIS (' + (s.parcelSrc || 'county') + ')' : 'OpenStreetMap outline, not a legal parcel') + (s.parcelId ? ' ' + s.parcelId : '') + '. Setbacks, building and parking are modeled assumptions. Terrain and neighbors are approximate.').comment('Rhino: File > Import, choose Meters as the model unit.');
   d.layer('SITE-LOT', 3).layer('SITE-SETBACKS', 1, 'DASHED').layer('BLDG-FOOTPRINT', 5).layer('BLDG-FLOORS', 4).layer('BLDG-ROOF', 4).layer('BLDG-EDGES', 2)
     .layer('TOPO-MAJOR', 9).layer('TOPO-MINOR', 8).layer('TOPO-LABELS', 7).layer('CONTEXT-PARCELS', 8, 'DASHED').layer('CONTEXT-BLDGS', 252).layer('CONTEXT-BLDGS-ROOF', 250).layer('ROADS', 8).layer('ANNOTATIONS', 7);
@@ -4475,7 +4475,7 @@ function doDXF(id) {
       ctxNote = nb + ' OSM buildings + streets';
     }
     var y0 = -half - 8;
-    [s.primary + (s.parcelId ? '  (parcel ' + s.parcelId + ')' : '') + (s.zoning ? '  zoned ' + s.zoning : ''), 'Units: meters. Origin = site centroid ' + s.lat.toFixed(6) + ', ' + s.lon.toFixed(6) + '. Z = 0 at ' + base.toFixed(1) + ' m elevation.', 'Lot ' + fmtInt(s.lotSize) + ' sf | Envelope ' + fmtInt(s.footprintSqft) + ' sf (front ' + P.front + ' / side ' + P.side + ' / rear ' + P.rear + ' ft) | ' + P.floors + ' fl, ' + H.toFixed(1) + ' m | GFA ' + fmtInt(s.fin.gfa) + ' sf', 'Flood ' + s.floodZone + ' | Slope ' + s.slope + ' deg | Soil ' + s.soil.name + ' (' + s.soil.risk + ')', 'Topo: ' + topoNote, 'Context: ' + ctxNote, 'SiteIQ Pro - ' + new Date().toISOString().slice(0, 10), 'NOT FOR CONSTRUCTION - screening model only. Lot lines are from public GIS, not a survey; verify zoning, setbacks and utilities with the local authority.', 'Sources: state/county parcel GIS, FEMA USA Structures, U.S. Census TIGERweb, USGS / Open-Meteo terrain, OpenStreetMap contributors.'].forEach(function (t, i) { d.text(t, -half, y0 - i * 4, 0, i ? 1.6 : 2.4, 'ANNOTATIONS'); });
+    [s.primary + (s.parcelId ? '  (parcel ' + s.parcelId + ')' : '') + (s.zoning ? '  zoned ' + s.zoning : ''), 'Units: meters. Origin = site centroid ' + s.lat.toFixed(6) + ', ' + s.lon.toFixed(6) + '. Z = 0 at ' + base.toFixed(1) + ' m elevation.', 'Lot ' + fmtInt(s.lotSize) + ' sf | Envelope ' + fmtInt(s.footprintSqft) + ' sf (front ' + P.front + ' / side ' + P.side + ' / rear ' + P.rear + ' ft) | ' + P.floors + ' fl, ' + H.toFixed(1) + ' m | GFA ' + fmtInt(s.fin.gfa) + ' sf', 'Flood ' + s.floodZone + ' | Slope ' + s.slope + ' deg | Soil ' + s.soil.name + ' (' + s.soil.risk + ')', 'Topo: ' + topoNote, 'Context: ' + ctxNote, 'SiteVerge - ' + new Date().toISOString().slice(0, 10), 'NOT FOR CONSTRUCTION - screening model only. Lot lines are from public GIS, not a survey; verify zoning, setbacks and utilities with the local authority.', 'Sources: state/county parcel GIS, FEMA USA Structures, U.S. Census TIGERweb, USGS / Open-Meteo terrain, OpenStreetMap contributors.'].forEach(function (t, i) { d.text(t, -half, y0 - i * 4, 0, i ? 1.6 : 2.4, 'ANNOTATIONS'); });
     download(new Blob([d.toString()], { type: 'application/dxf' }), fileBase(s) + '.dxf');
     toast('DXF exported — ' + (/LiDAR/.test(topoNote) ? 'county LiDAR contours' : /GLO/.test(topoNote) ? 'terrain-model contours' : 'no contours') + ', ' + ctxNote, 6000);
   }
@@ -4485,7 +4485,7 @@ function doExcel(id) {
   if (typeof XLSX === 'undefined') { doCSV(s); return; }
   var wb = XLSX.utils.book_new();
   function add(name, aoa, w) { var ws = XLSX.utils.aoa_to_sheet(aoa.map(function (r) { return r.map(cellSafe); })); if (w) ws['!cols'] = w.map(function (x) { return { wch: x }; }); XLSX.utils.book_append_sheet(wb, ws, name); }
-  add('Read Me', [['SiteIQ Pro — ' + s.primary], ['Exported ' + new Date().toLocaleString()], [], ['DISCLAIMER'], [DISCLAIMER], [], ['DATA SOURCES (see the Data Sources sheet for this site)'],
+  add('Read Me', [['SiteVerge — ' + s.primary], ['Exported ' + new Date().toLocaleString()], [], ['DISCLAIMER'], [DISCLAIMER], [], ['DATA SOURCES (see the Data Sources sheet for this site)'],
     ['Parcels: state and county public GIS layers (Hamilton County, OH: CAGIS / Auditor); building footprints: FEMA USA Structures; streets: U.S. Census TIGERweb'],
     ['Flood: FEMA National Flood Hazard Layer; soils: USDA NRCS Soil Data Access (SSURGO); walkability: U.S. EPA Smart Location Database v3'],
     ['Income and rents: U.S. Census Bureau ACS 5-year estimates via Esri Living Atlas; solar: NASA POWER; elevation and air quality: Open-Meteo'],
@@ -4534,12 +4534,12 @@ function reportProblem(id) {
   var s = findSite(id); if (!s) return;
   var what = window.prompt('What looks wrong? (e.g. “there is a house on this lot”, “wrong zoning”, “lot is a parking lot”)', '');
   if (what == null) return;
-  var lines = ['SiteIQ Pro problem report', 'Issue: ' + String(what).slice(0, 500), 'Site: ' + s.primary + (s.fullAddress ? ' — ' + s.fullAddress : ''),
+  var lines = ['SiteVerge problem report', 'Issue: ' + String(what).slice(0, 500), 'Site: ' + s.primary + (s.fullAddress ? ' — ' + s.fullAddress : ''),
     'Parcel ID: ' + (s.parcelId || 'n/a') + ' | Source: ' + s.source + (s.parcelSrc ? ' (' + s.parcelSrc + ')' : '') + (s.srcL ? ' ' + s.srcL : ''),
     'Coordinates: ' + s.lat.toFixed(6) + ', ' + s.lon.toFixed(6) + ' | Zoning: ' + (s.zoning || 'n/a') + ' | Lot sf: ' + fmtInt(s.lotSize),
     'Checks failed: ' + (s.bld.fails.map(function (x) { return x[0]; }).join('; ') || 'none'), 'City search: ' + (cityInfo ? cityInfo.full : 'lookup'), 'Date: ' + new Date().toISOString(), 'Browser: ' + navigator.userAgent];
   var txt = lines.join('\n');
-  if (FEEDBACK_EMAIL) { location.href = 'mailto:' + FEEDBACK_EMAIL + '?subject=' + encodeURIComponent('SiteIQ problem: ' + s.primary) + '&body=' + encodeURIComponent(txt); return; }
+  if (FEEDBACK_EMAIL) { location.href = 'mailto:' + FEEDBACK_EMAIL + '?subject=' + encodeURIComponent('SiteVerge problem: ' + s.primary) + '&body=' + encodeURIComponent(txt); return; }
   var ok = function () { toast('Problem report copied — paste it into an email or the feedback form', 5000); };
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(ok, function () { window.prompt('Copy this report:', txt); });
   else window.prompt('Copy this report:', txt);
@@ -4578,7 +4578,7 @@ function teaserHTML(s, share) {
     + '.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:9px;color:#5a6678;margin-top:4px}.legend i{display:inline-block;width:14px;height:8px;margin-right:4px;vertical-align:-1px}'
     + '@media print{.wrap{padding:0}@page{size:letter;margin:.45in}h2{break-after:avoid}.ck tr,.cols>div{break-inside:avoid}}@media(max-width:640px){.grid,.cols{grid-template-columns:1fr}.wrap{padding:16px}}' + PLAN_CSS;
   var risks = it.filter(function (x) { return x.st === 'fail' || x.st === 'verify' || x.st === 'unavailable'; });
-  var b = '<div class="wrap"><div class="hd"><div class="brand">SITE<b>IQ</b> PRO <span style="font-weight:400;letter-spacing:1px;color:#5a6678">· Free public beta</span></div><div class="doc">Preliminary Site Feasibility Report<br>Generated ' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) + '</div></div>'
+  var b = '<div class="wrap"><div class="hd"><div class="brand">SITE<b>VERGE</b> <span style="font-weight:400;letter-spacing:1px;color:#5a6678">· Free public beta</span></div><div class="doc">Preliminary Site Feasibility Report<br>Generated ' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) + '</div></div>'
     + '<span class="pre">Preliminary screening — not a zoning determination, survey, appraisal or design</span>'
     + '<h1>' + escapeHtml(s.primary) + '</h1><div class="sub">' + escapeHtml([s.fullAddress || s.hood, s.countyName].filter(Boolean).join(' · ')) + (s.parcelId ? ' · Parcel ' + escapeHtml(s.parcelId) : '') + ' · ' + s.lat.toFixed(5) + ', ' + s.lon.toFixed(5) + '</div>'
     + triadHTML(s, 'rep') + '<div class="note" style="margin:-4px 0 10px">Site score ' + (isFinite(s.composite) ? s.composite.toFixed(0) : '—') + '/100 (parcel and location quality only) · Data confidence: ' + ['sourced', 'estimated', 'verify', 'unavailable', 'fail'].filter(function (k) { return cs[k]; }).map(function (k) { return cs[k] + ' ' + ST_LABEL[k].toLowerCase(); }).join(', ') + ' · ' + escapeHtml(coverageNote(s)) + '</div>'
@@ -4661,11 +4661,11 @@ var SRC = {
   transit: ['USDOT BTS National Transit Map', 'https://geodata.bts.gov/'],
   acs: ['U.S. Census Bureau ACS 5-year', 'https://data.census.gov/'],
   epa: ['U.S. EPA Smart Location Database', 'https://www.epa.gov/smartgrowth/smart-location-mapping'],
-  model: ['SiteIQ model (assumptions)', null]
+  model: ['SiteVerge model (assumptions)', null]
 };
 // One confidence vocabulary for the whole app and every export (website, PDF/HTML report, Excel, GeoJSON).
 var ST_LABEL = { sourced: 'Source record', estimated: 'Modeled estimate', verify: 'Requires verification', unavailable: 'Unavailable', fail: 'Fails screen' };
-var ST_DEF = { sourced: 'retrieved from the named public dataset during this analysis — not field-verified', estimated: 'calculated from assumptions or reference data', verify: 'must be confirmed with an official source or a qualified professional', unavailable: 'SiteIQ could not obtain it reliably', fail: 'the data indicates a problem that rules the lot out' };
+var ST_DEF = { sourced: 'retrieved from the named public dataset during this analysis — not field-verified', estimated: 'calculated from assumptions or reference data', verify: 'must be confirmed with an official source or a qualified professional', unavailable: 'SiteVerge could not obtain it reliably', fail: 'the data indicates a problem that rules the lot out' };
 // Only http(s) links from external data are ever rendered as links.
 function safeUrl(u) { return typeof u === 'string' && /^https?:\/\/[^\s"'<>]+$/i.test(u) ? u : null; }
 // ---------- geographic coverage (per site, from the sources actually used for it) ----------
@@ -4848,7 +4848,7 @@ function m3Draw(st) {
   function poly(pts, z) { ctx.beginPath(); pts.forEach(function (p, i) { var q = P(p, z || 0); if (i) ctx.lineTo(q[0], q[1]); else ctx.moveTo(q[0], q[1]); }); ctx.closePath(); }
   function quad(q) { ctx.beginPath(); ctx.moveTo(q[0][0], q[0][1]); for (var i = 1; i < q.length; i++) ctx.lineTo(q[i][0], q[i][1]); ctx.closePath(); }
   function shade(hex, k) { var n = parseInt(hex.slice(1), 16), r = n >> 16 & 255, gg = n >> 8 & 255, b = n & 255; return 'rgb(' + Math.round(r * k) + ',' + Math.round(gg * k) + ',' + Math.round(b * k) + ')'; }
-  // SiteIQ palette: navy base + teal accents (dark theme), pale slate + deep teal (light theme); retail keeps the site's gold
+  // SiteVerge palette: navy base + teal accents (dark theme), pale slate + deep teal (light theme); retail keeps the site's gold
   var C = dark ? { plate: '#10213a', lot2: '#142a45', lawn: '#173a3f', walk: '#2a4058', road: '#0a1626', asph: '#22364f', stripe: '#cfe9f2', wall: '#e6f3f7', roof: '#c7e0e8', glass: '#2bb3d4', store: '#c98f5e', nb: '#2b4260', nbRoof: '#36506f', edge: '#0d7f99', tree: '#2f9e8a', treeHi: '#6fd1bd', treeLo: '#1d6b5d', trunk: '#6b5a4a', dash: '#00c4e8', ink: '#9fd9e8' }
     : { plate: '#eaf1f5', lot2: '#e1eaf0', lawn: '#d3ebe5', walk: '#ffffff', road: '#b6c3cf', asph: '#c3ced8', stripe: '#ffffff', wall: '#ffffff', roof: '#dcebf0', glass: '#0096b4', store: '#c87533', nb: '#dfe6ec', nbRoof: '#eef2f5', edge: '#0078a8', tree: '#4fa894', treeHi: '#8fd3c3', treeLo: '#2f7a69', trunk: '#7b6450', dash: '#0078a8', ink: '#1a2535' };
   var sun = M3_SUN, shOff = function (z) { return [-sun[0] / sun[2] * z, -sun[1] / sun[2] * z]; };
@@ -5150,7 +5150,7 @@ function doSitePlan(id) {
   contextData(s).catch(function () { return null; }).then(function (ctx) {
     var f = s.fin, R = s.rules || {}, P = readParams(), svg = planSVG(s, ctx, 760, 560, { zoom: 2.0 }).replace('<svg ', '<svg class="sp" ').replace('>', '>' + HATCH);
     function row(k, v) { return '<tr><td>' + k + '</td><td>' + v + '</td></tr>'; }
-    var tb = '<div class="tb"><div class="tb-logo">SITE<b>IQ</b> PRO</div><div class="tb-proj">' + escapeHtml(s.primary) + '</div><div class="tb-addr">' + escapeHtml(s.fullAddress || s.hood || '') + '</div><table>'
+    var tb = '<div class="tb"><div class="tb-logo">SITE<b>VERGE</b></div><div class="tb-proj">' + escapeHtml(s.primary) + '</div><div class="tb-addr">' + escapeHtml(s.fullAddress || s.hood || '') + '</div><table>'
       + row('Parcel', escapeHtml(s.parcelId || '—')) + row('Zoning', escapeHtml(s.zoning || 'not mapped') + (R.label ? ' · ' + escapeHtml(R.label) : '')) + row('Lot area', fmtInt(s.lotSize) + ' sf (' + (s.lotSize / 43560).toFixed(2) + ' ac)')
       + row('Setbacks F / S / R', R.front + ' / ' + R.side + ' / ' + R.rear + ' ft') + row('Setback envelope (est.)', fmtInt(s.footprintSqft) + ' sf') + row('Building', f.floors + ' floors · ' + escapeHtml(f.product)) + row('Gross floor area', fmtInt(f.gfa) + ' sf · FAR ' + f.farActual.toFixed(2))
       + row('Units', f.units + (f.comShare > 0 ? ' + ' + fmtInt(f.rentable * f.comShare) + ' sf retail' : '')) + row('Parking', (f.stalls || 0) + ' stalls (' + escapeHtml(s.parkMode || '') + ')') + row('Height (approx.)', buildingHeightM(f.floors).toFixed(1) + ' m / ' + Math.round(buildingHeightM(f.floors) * 3.28084) + ' ft')
@@ -5176,7 +5176,7 @@ function doCompareReport() {
   var head = '<tr><th></th>' + sites.map(function (s) { return '<th><div class="cr-plan">' + planSVG(s, null, 260, 170, { zoom: 1.6 }).replace('>', '>' + HATCH) + '</div>#' + escapeHtml(String(s.finalRank || '')) + ' ' + escapeHtml(s.primary) + '<div class="cr-sub">' + escapeHtml(s.hood || s.fullAddress || '') + '</div></th>'; }).join('') + '</tr>';
   var body = rows.map(function (r) { return '<tr><td>' + r[0] + '</td>' + sites.map(function (s) { var v; try { v = r[1](s); } catch (e) { v = '—'; } return '<td>' + escapeHtml(String(v)) + '</td>'; }).join('') + '</tr>'; }).join('');
   var css = '.cr{padding:.5in}.cr h1{font-size:18px;margin:0 0 4px}.cr .meta{color:#5a6678;font-size:11px;margin-bottom:12px}.cr table{width:100%;border-collapse:collapse;font-size:11px}.cr th{vertical-align:top;text-align:left;padding:6px;border-bottom:2px solid #0d1b2e;font-size:12px}.cr td{padding:5px 6px;border-bottom:1px solid #d4dae4}.cr td:first-child{color:#5a6678;width:150px}.cr-plan svg{width:100%;height:auto;border:1px solid #d4dae4;margin-bottom:4px}.cr-sub{font-weight:400;color:#5a6678;font-size:10px}.cr .disc{margin-top:14px;font-size:9px;color:#5a6678;line-height:1.45}';
-  openSheet('Site comparison — ' + (cityInfo ? cityInfo.name : 'SiteIQ'), '<div class="page cr"><h1>Site comparison' + (cityInfo ? ' — ' + escapeHtml(cityInfo.name) : '') + '</h1><div class="meta">SiteIQ Pro · ' + new Date().toLocaleDateString() + ' · ' + sites.length + ' sites · assumptions: hard cost $' + P.hardCost + '/sf, perm ' + fmtPct(P.rate, 2) + ', construction ' + fmtPct(P.crate, 2) + ', exit cap ' + fmtPct(P.exitCap, 2) + '</div><table>' + head + body + '</table><div class="disc"><b>Disclaimer:</b> ' + escapeHtml(DISCLAIMER) + '</div></div>', css);
+  openSheet('Site comparison — ' + (cityInfo ? cityInfo.name : 'SiteVerge'), '<div class="page cr"><h1>Site comparison' + (cityInfo ? ' — ' + escapeHtml(cityInfo.name) : '') + '</h1><div class="meta">SiteVerge · ' + new Date().toLocaleDateString() + ' · ' + sites.length + ' sites · assumptions: hard cost $' + P.hardCost + '/sf, perm ' + fmtPct(P.rate, 2) + ', construction ' + fmtPct(P.crate, 2) + ', exit cap ' + fmtPct(P.exitCap, 2) + '</div><table>' + head + body + '</table><div class="disc"><b>Disclaimer:</b> ' + escapeHtml(DISCLAIMER) + '</div></div>', css);
 }
 
 // =====================================================================
