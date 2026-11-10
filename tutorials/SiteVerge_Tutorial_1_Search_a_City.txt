@@ -1,0 +1,13 @@
+SiteVerge tutorial, episode 1: Search a city
+
+Type a city. Get back buildable lots, a 3D building, and a full pro forma. Let's go find some land.
+Episode one. Searching a city.
+This is SiteVerge. It's free, there's no account, and it works for any city in the United States.
+Choose Find sites in a city, type a city and state. We'll try Charlotte, North Carolina. Then hit Find lots.
+Now SiteVerge goes to work. It ranks every neighborhood, pulls the county's parcel records, and throws out anything with a building, no street access, or a pond on it.
+Seconds later, here are the lots that passed the screen. Ranked on the left, pinned on the map.
+Up top, building type and max floors control what gets tested. Change them, press Run, and it searches again.
+Want more control? Open Assumptions. Filters set your limits: land cost, flood risk, slope, and the smallest lot you'd consider.
+Massing sets the building rules: floor area ratio, setbacks, and how much is residential. Where SiteVerge knows the zoning, the real limits take over.
+And Weights decide what matters most to you. Slide them around, and the ranking reshuffles instantly.
+Next up: how to read your results.

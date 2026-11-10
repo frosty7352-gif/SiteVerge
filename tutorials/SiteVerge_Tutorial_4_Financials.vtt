@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:00.250 --> 00:00:03.277
+Does it pencil? Let's run the numbers. A thousand times.
+
+2
+00:00:04.227 --> 00:00:06.602
+Episode four. Financial analysis.
+
+3
+00:00:07.552 --> 00:00:15.941
+Financial Analysis starts with three numbers: land price, construction
+cost, and rent. SiteVerge estimates all three from public data.
+
+4
+00:00:16.841 --> 00:00:21.648
+Got a real asking price? Type it in. Here, $650,000.
+
+5
+00:00:22.548 --> 00:00:30.855
+Hit Use, and the whole model reruns. The net present value drops from
+$746K to $596K.
+
+6
+00:00:31.755 --> 00:00:37.226
+The summary shows the big ones: total cost, income, value, yield on
+cost, and returns.
+
+7
+00:00:38.126 --> 00:00:46.277
+Scenarios stress-test it: conservative, base, and optimistic. In the
+conservative case, this one doesn't pencil, and that's worth knowing.
+
+8
+00:00:47.177 --> 00:00:53.739
+Returns show the investor's cash flow, year by year. Money goes in
+early, and the big payoff comes at the sale.
+
+9
+00:00:54.639 --> 00:01:00.951
+In Advanced, drag the sliders for exit cap, interest rates, and vacancy,
+and see how the returns respond.
+
+10
+00:01:01.851 --> 00:01:10.524
+Then Monte Carlo runs the model 1,000 times. Here, about 61% of runs
+come out positive. That's a range, not a promise.
+
+11
+00:01:11.574 --> 00:01:13.431
+Next up: lookups and exports.
+

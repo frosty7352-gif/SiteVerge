@@ -1,0 +1,13 @@
+SiteVerge tutorial, episode 4: Financial analysis
+
+Does it pencil? Let's run the numbers. A thousand times.
+Episode four. Financial analysis.
+Financial Analysis starts with three numbers: land price, construction cost, and rent. SiteVerge estimates all three from public data.
+Got a real asking price? Type it in. Here, $650,000.
+Hit Use, and the whole model reruns. The net present value drops from $746K to $596K.
+The summary shows the big ones: total cost, income, value, yield on cost, and returns.
+Scenarios stress-test it: conservative, base, and optimistic. In the conservative case, this one doesn't pencil, and that's worth knowing.
+Returns show the investor's cash flow, year by year. Money goes in early, and the big payoff comes at the sale.
+In Advanced, drag the sliders for exit cap, interest rates, and vacancy, and see how the returns respond.
+Then Monte Carlo runs the model 1,000 times. Here, about 61% of runs come out positive. That's a range, not a promise.
+Next up: lookups and exports.

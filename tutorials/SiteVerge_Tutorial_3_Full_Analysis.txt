@@ -1,0 +1,12 @@
+SiteVerge tutorial, episode 3: The full site analysis
+
+One click turns an empty lot into a building. Let's open the full analysis.
+Episode three. The full site analysis.
+Open Full Analysis, and the Overview asks one honest question: is this property worth investigating further?
+Here's the short version: about 26,700 sf of buildable area, a 40,000 sf building, and about $10.7 million to build.
+Next steps tell you exactly what to check before you spend a dime: zoning, ownership, and environmental history.
+Site and Massing builds a conceptual 3D model you can spin and zoom.
+Add a floor, and everything updates. Three floors becomes four, and 26 units becomes 36.
+Market and Context covers the neighborhood: walkability, transit, jobs nearby, and household income, all from public data.
+And the ground itself: soil, slope, sunshine, and air quality, straight from federal sources.
+Next up: the money.
